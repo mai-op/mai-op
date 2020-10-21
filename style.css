@@ -1,7 +1,7 @@
 body {
   font-family: 'Fira Sans', Helvetica, sans-serif;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 14px;
   background: #fff;
   color: #666;
   margin: 0;
@@ -38,16 +38,18 @@ body h4 img {
   border: 0 none;
 }
 body h1 {
-  font-size: 42px;
+  font-size: 32px;
   margin-top: 40px;
+  font-weight: bold;
 }
 body h2 {
   margin-top: 60px;
   position: relative;
-  font-size: 32px;
+  font-size: 22px;
+  font-weight: bold;
 }
 body h3 {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 40px;
   font-weight: bold;
 }
