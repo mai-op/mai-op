@@ -14,7 +14,7 @@
 
 
 ** Интерпретатор turun
-Интерпретатор, который установлен на компьютерах в МАИ, работает в командной строке Linux. Вы можете просто [[https://mai-op.github.io/installing/turun][скачать]] его или при помощи wget:
+Интерпретатор, который установлен на компьютерах в МАИ, работает в командной строке Linux. Вы можете просто [[https://mai-op.github.io/installing/turun][скачать]] его, или при помощи wget:
 #+BEGIN_SRC bash
 wget https://mai-op.github.io/installing/turun
 #+END_SRC
@@ -40,7 +40,7 @@ chmod u+x turun
 
 Любителям Linux предоставляется возможность разобраться, как запустить его под wine. У кого получится --- сообщите, как вы это сделали.
 ** Интерпретатор nam
-Интерпретатор, который установлен на компьютерах в МАИ, работает в командной строке Linux. Вы можете просто [[https://mai-op.github.io/installing/nam][скачать]] его или при помощи wget:
+Интерпретатор, который установлен на компьютерах в МАИ, работает в командной строке Linux. Вы можете просто [[https://mai-op.github.io/installing/nam][скачать]] его, или при помощи wget:
 #+BEGIN_SRC bash
 wget https://mai-op.github.io/installing/nam
 #+END_SRC
