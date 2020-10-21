@@ -27,8 +27,18 @@ chmod u+x turun
 
 О том, как работать с ним, читайте в методичке к лабораторной №5. Там он называется tu4.
 
-** Диаграммер JDT
+** Диаграммер JDT Дзюбы
+Для работы с диаграммером последней версии достаточно скачать нужную версию и распаковать:
+- Для Windows: [[file:VirtualTuringMachine.zip][Download]]
+- Для Mac OS: [[file:VirtualTuringMachine.pkg.zip][Download]]
+- Для Linux: [[file:VirtualTuringMachine_Ububtu_14_4_x86_64.zip][Download]]
 
+В Linux запускать из консоли: 
+#+BEGIN_SRC bash
+./VirtualTuringMachine
+#+END_SRC
+
+Взято с [[http://faq8.ru/read.php?2,10137][faq8/lab7]].
 
 * Алгоритмы Маркова
 ** Интерпретатор Полякова
@@ -50,3 +60,5 @@ wget https://mai-op.github.io/installing/nam
 chmod u+x nam
 ./nam
 #+END_SRC
+
+О том, как работать с этим интерпретатором, написано в методичке к лабораторной №7.
