@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-10-24 Сб 02:38 -->
+<!-- 2020-10-24 Сб 02:37 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Олимпиадные тренировки в МАИ</title>
+<title>Заметки по контесту Math [5]</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="AmDer" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -192,7 +193,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="../style.css" />
 <style>div.figure img {max-height:300px;max-width:900px;}</style>
 <style>.org-src-container {background-color: #303030; color: #e5e5e5;}</style>
 <script type="text/javascript">
@@ -241,55 +242,190 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">Олимпиадные тренировки в МАИ</h1>
+<h1 class="title">Заметки по контесту Math [5]</h1>
+<p>
+Напишу о часто встречающихся ошибках в прошедшем контесте.
+</p>
 
-<div id="outline-container-org15445fc" class="outline-2">
-<h2 id="org15445fc">Конспекты лекций</h2>
-<div class="outline-text-2" id="text-org15445fc">
-<ul class="org-ul">
-<li><a href="Lections/Lection1.pdf">Лекция C++ 1</a></li>
-<li><a href="Lections/Lection2.pdf">Лекция C++ 2</a></li>
-<li><a href="Lections/Lection3.pdf">Лекция C++ 3</a></li>
-<li><a href="Lections/Lection4.pdf">Лекция C++ 4</a></li>
-<li><a href="Lections/Lection5.pdf">Лекция Math 5</a></li>
-</ul>
+<div id="outline-container-org5a0516c" class="outline-2">
+<h2 id="org5a0516c">Переполнение типа</h2>
+<div class="outline-text-2" id="text-org5a0516c">
+</div>
+<div id="outline-container-org80ef282" class="outline-3">
+<h3 id="org80ef282">Где ошибка?</h3>
+<div class="outline-text-3" id="text-org80ef282">
+<p>
+Давайте посмотрим на следующий код. Учитывая, что \(n\) может быть равным \(10^{16}\), попробуйте найти ошибку в нём. 
+</p>
+<div class="org-src-container">
+<pre class="src src-c++">int main(){
+    long long n;
+    cin &gt;&gt; n;
+    vector&lt;long long&gt; p;
+    vector&lt;long long&gt; a;
+    for (int i = 2; i * i &lt;= n; i++) {
+        if (n % i != 0) 
+            continue;
+        p.push_back(i);
+        a.push_back(0);
+        while (n % i == 0) {
+            a.back() += 1;
+            n /= i;
+        }
+    }
+    //...
+}
+</pre>
+</div>
+
+<p>
+Ошибка в нём заключается в использовании типа \(int\) для счётчика цикла \(for\). Значение \(i * i\) считается в типе \(int\), и никогда не сможет стать больше \(2^{31}-1\). Решением тут является использовать тип \(long\) \(long\).
+</p>
 </div>
 </div>
 
-<div id="outline-container-org9d805ad" class="outline-2">
-<h2 id="org9d805ad">Записи лекций</h2>
-<div class="outline-text-2" id="text-org9d805ad">
-<ul class="org-ul">
-<li><a href="https://youtu.be/ToaURjQQw2I">Запись лекции C++ 3</a></li>
-<li><a href="https://youtu.be/hngRACdQuVM">Запись лекции C++ 4</a></li>
-</ul>
+<div id="outline-container-org99e1dce" class="outline-3">
+<h3 id="org99e1dce">И снова int</h3>
+<div class="outline-text-3" id="text-org99e1dce">
+<p>
+Попробуйте определить, в какой строчке здесь происходит переполнение интового типа. \(|v[i]| < 10^{8}\), \(1 \leq n \leq 5 \cdot 10^{5}\).  
+</p>
+<div class="org-src-container">
+<pre class="src src-c++">int main() {
+    ios:: sync_with_stdio(false);
+    int n;
+    long long ans = 0;
+    cin &gt;&gt; n;
+    vector&lt;int&gt; v(n);
+    for (int&amp; x: v) cin &gt;&gt; x;
+    sort(v.begin(), v.end());
+    for (int i = 1; i * 2 &lt;= n; i++)
+        ans += (n - i * 2 + 1) * abs(v[i - 1] - v[n - i]);
+    cout &lt;&lt; ans &lt;&lt; '\n';
+    return 0;
+}
+</pre>
+</div>
+
+<p>
+В строчке 10! Почему? Потому что оба множителя в произведении имеют тип \(int\), так как в них все переменные типа \(int\). 
+</p>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org34d60c7" class="outline-2">
-<h2 id="org34d60c7">Записи разборов</h2>
-<div class="outline-text-2" id="text-org34d60c7">
-<ul class="org-ul">
-<li><a href="https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF">Запись разбора C++ 4</a></li>
-<li><a href="waiting.html">Запись разбора Math 5</a></li>
-</ul>
+<div id="outline-container-org247ed0f" class="outline-2">
+<h2 id="org247ed0f">Сложность алгоритма</h2>
+<div class="outline-text-2" id="text-org247ed0f">
+<p>
+Рассмотрим несколько примеров.
+</p>
+</div>
+
+<div id="outline-container-orgd82ea14" class="outline-3">
+<h3 id="orgd82ea14">Сколько ждать?</h3>
+<div class="outline-text-3" id="text-orgd82ea14">
+<p>
+Сначала самый простой. Здесь уже ошибка не только в использовании инта, но и в выборе алгоритма. Попробуйте оценить его сложность и прикинуть, сколько он будет работать для \(n = 10^{16}\).
+</p>
+<div class="org-src-container">
+<pre class="src src-c++">int main() {
+    int n;
+    int sum = 0;
+    cin &gt;&gt; n;
+    for (int i = 1; i &lt;= n; i++) {
+        if (n % i == 0) {
+            sum = sum + 1;
+        }
+    }
+    cout &lt;&lt; sum;
+    return 0;
+}
+</pre>
+</div>
+
+<p>
+Сложность, как не трудно догадаться, линейная, то есть \(O(n)\). Это значит, что будет совершено порядка \(n\) действий, для нашего случая \(10^{16}\). Если предположить, что на кодфорсесе очень мощное железо, которое обрабатывает \(10^{9}\) операций за секунду, то этот код будет работать \(10^{7}\) секунд \(\approx 116\) дней. То есть вывод ответа случится 17 февраля следующего года. Долго. 
+</p>
+
+<p>
+Конечно, нужно использовать алгоритм со сложностью \(O(\sqrt{n})\), заметив, что все делители разбиваются на пары \(d\) и \(\cfrac{n}{d}\). Останется ещё только обработать случай \(d = \cfrac{n}{d}\).
+</p>
 </div>
 </div>
 
-<div id="outline-container-org57eea4f" class="outline-2">
-<h2 id="org57eea4f">Заметки</h2>
-<div class="outline-text-2" id="text-org57eea4f">
-<ul class="org-ul">
-<li><a href="notes/note_math5.html">Заметка к контесту Math 5</a></li>
-</ul>
+<div id="outline-container-org89ef9ac" class="outline-3">
+<h3 id="org89ef9ac">Подождём?</h3>
+<div class="outline-text-3" id="text-org89ef9ac">
+<p>
+Следующий код представляет хорошее начало для получения итогового решения задачи. Оцените его сложность, скажите, сколько он будет работать для \(n = 5 \cdot 10^{5}\).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-c++">for (int i = 0; i &lt; n; i++){
+    for (int j = i + 1; j &lt; n; j++){
+        ans += v[j] - v[i];
+    }
+ }
+</pre>
+</div>
+
+<p>
+Не трудно заметить, что сложность вычисляется как сумма арифметической прогрессии \((n - 1) + (n - 2) + \ldots + 2 + 1 = \cfrac{n(n - 1)}{2}\). 
+</p>
+
+<p>
+То есть сложность квадратичная, \(O(n^2)\). Грубо оценим время работы для \(n = 5 \cdot 10^{5}\): \(n^2 = 25 \cdot 10^{10}\). С предположением о \(10^{9}\) за секунду, получаем \(250\) секунд работы. Но кодфорсес не ждёт.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbbf9fe4" class="outline-2">
+<h2 id="orgbbf9fe4">Общие замечания по коду</h2>
+<div class="outline-text-2" id="text-orgbbf9fe4">
+<p>
+Соблюдайте табуляцию в коде, делайте пробелы в строку между логически различными частями в коде. Объявляйте переменные рядом с теми местами, где они используются, что логично. Старайтесь называть переменные осмысленно.
+</p>
+
+<p>
+Соблюдайте эти простые правила, и код будет писаться легче, ошибки искаться быстрее.
+</p>
+
+<p>
+<a href="../index.html">На главную</a>
+</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2020-10-24 Сб 02:38</p>
+<p class="author">Author: AmDer</p>
+<p class="date">Created: 2020-10-24 Сб 02:37</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
