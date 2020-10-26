@@ -17,7 +17,7 @@
 
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
-+ [[file:waiting.org][Запись разбора Math 5]]
++ [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
 
 * Заметки
 - [[file:notes/note_math5.org][Заметка к контесту Math 5]]
