@@ -1,0 +1,72 @@
+[10-27-2020 17:02:12] [I] [96mServer loaded. Type [93m'help'[96m for help.
+[10-27-2020 17:02:18] [I] Commands:
+[10-27-2020 17:02:18] [I]    [33mhelp - [95mDisplays this command list.
+[10-27-2020 17:02:18] [I]    [33mversion - [95mDisplays server version info.
+[10-27-2020 17:02:18] [I]    [33mexit - [95mExit the server application.
+[10-27-2020 17:02:18] [I]    [33mstop - [95mStop hosting the server.
+[10-27-2020 17:02:18] [I]    [33mhost [mapname] [mode] - [95mOpen the server. Will default to survival and a random map if not specified.
+[10-27-2020 17:02:18] [I]    [33mmaps - [95mDisplay all available maps.
+[10-27-2020 17:02:18] [I]    [33mreloadmaps - [95mReload all maps from disk.
+[10-27-2020 17:02:18] [I]    [33mstatus - [95mDisplay server status.
+[10-27-2020 17:02:18] [I]    [33mmods - [95mDisplay all loaded mods.
+[10-27-2020 17:02:18] [I]    [33mmod <name...> - [95mDisplay information about a loaded plugin.
+[10-27-2020 17:02:18] [I]    [33mjs <script...> - [95mRun arbitrary Javascript.
+[10-27-2020 17:02:18] [I]    [33msay <message...> - [95mSend a message to all players.
+[10-27-2020 17:02:18] [I]    [33mpause <on/off> - [95mPause or unpause the game.
+[10-27-2020 17:02:18] [I]    [33mrules [remove/add] [name] [value...] - [95mList, remove or add global rules. These will apply regardless of map.
+[10-27-2020 17:02:18] [I]    [33mfillitems [team] - [95mFill the core with items.
+[10-27-2020 17:02:18] [I]    [33mplayerlimit [off/somenumber] - [95mSet the server player limit.
+[10-27-2020 17:02:18] [I]    [33mconfig [name] [value...] - [95mConfigure server settings.
+[10-27-2020 17:02:18] [I]    [33msubnet-ban [add/remove] [address] - [95mBan a subnet. This simply rejects all connections with IPs starting with some string.
+[10-27-2020 17:02:18] [I]    [33mwhitelisted - [95mList the entire whitelist.
+[10-27-2020 17:02:18] [I]    [33mwhitelist-add <ID> - [95mAdd a player to the whitelist by ID.
+[10-27-2020 17:02:18] [I]    [33mwhitelist-remove <ID> - [95mRemove a player to the whitelist by ID.
+[10-27-2020 17:02:18] [I]    [33mshuffle [none/all/custom/builtin] - [95mSet map shuffling mode.
+[10-27-2020 17:02:18] [I]    [33mnextmap <mapname...> - [95mSet the next map to be played after a game-over. Overrides shuffling.
+[10-27-2020 17:02:18] [I]    [33mkick <username...> - [95mKick a person by name.
+[10-27-2020 17:02:18] [I]    [33mban <type-id/name/ip> <username/IP/ID...> - [95mBan a person.
+[10-27-2020 17:02:18] [I]    [33mbans - [95mList all banned IPs and IDs.
+[10-27-2020 17:02:18] [I]    [33munban <ip/ID> - [95mCompletely unban a person by IP or ID.
+[10-27-2020 17:02:18] [I]    [33mpardon <ID> - [95mPardons a votekicked player by ID and allows them to join again.
+[10-27-2020 17:02:18] [I]    [33madmin <add/remove> <username/ID...> - [95mMake an online user admin
+[10-27-2020 17:02:18] [I]    [33madmins - [95mList all admins.
+[10-27-2020 17:02:18] [I]    [33mplayers - [95mList all players currently in game.
+[10-27-2020 17:02:18] [I]    [33mrunwave - [95mTrigger the next wave.
+[10-27-2020 17:02:18] [I]    [33mload <slot> - [95mLoad a save from a slot.
+[10-27-2020 17:02:18] [I]    [33msave <slot> - [95mSave game state to a slot.
+[10-27-2020 17:02:18] [I]    [33msaves - [95mList all saves in the save directory.
+[10-27-2020 17:02:18] [I]    [33mgameover - [95mForce a game over.
+[10-27-2020 17:02:18] [I]    [33minfo <IP/UUID/name...> - [95mFind player info(s). Can optionally check for all names or IPs a player has had.
+[10-27-2020 17:02:18] [I]    [33msearch <name...> - [95mSearch players who have used part of a name.
+[10-27-2020 17:02:18] [I]    [33mgc - [95mTrigger a garbage collection. Testing only.
+[10-27-2020 17:02:46] [I] Maps:
+[10-27-2020 17:02:46] [I]   [93mAncient Caldera: [94m[3mDefault / 256x256
+[10-27-2020 17:02:46] [I]   [93mFork: [94m[3mDefault / 250x300
+[10-27-2020 17:02:46] [I]   [93mFortress: [94m[3mDefault / 256x256
+[10-27-2020 17:02:46] [I]   [93mGlacier: [94m[3mDefault / 150x250
+[10-27-2020 17:02:46] [I]   [93mIslands: [94m[3mDefault / 256x256
+[10-27-2020 17:02:46] [I]   [93mLabyrinth: [94m[3mDefault / 200x200
+[10-27-2020 17:02:46] [I]   [93mMaze: [94m[3mDefault / 256x256
+[10-27-2020 17:02:46] [I]   [93mShattered: [94m[3mDefault / 350x350
+[10-27-2020 17:02:46] [I]   [93mTendrils: [94m[3mDefault / 300x300
+[10-27-2020 17:02:46] [I]   [93mTriad: [94m[3mDefault / 200x200
+[10-27-2020 17:02:46] [I]   [93mVeins: [94m[3mDefault / 350x200
+[10-27-2020 17:02:46] [I]   [93mWasteland: [94m[3mDefault / 300x300
+[10-27-2020 17:02:46] [I] [93mMap directory: [94m[3m/home/amder/Projects/TrainsForFirst/mai-op/config/maps
+[10-27-2020 17:03:06] [I] Loading map...
+[10-27-2020 17:03:07] [I] Map loaded.
+[10-27-2020 17:03:07] [I] [96mOpened a server on port 6567.
+[10-27-2020 17:09:20] [I] [96mGame over! Reached wave [93m3[96m with [93m0[96m players online on map [93mMaze[96m.
+[10-27-2020 17:09:20] [I] Selected next map to be Labyrinth.
+[10-27-2020 17:16:02] [I] [96mGame over! Reached wave [93m3[96m with [93m0[96m players online on map [93mLabyrinth[96m.
+[10-27-2020 17:16:02] [I] Selected next map to be Fortress.
+[10-27-2020 17:21:31] [I] [96mGame over! Reached wave [93m2[96m with [93m0[96m players online on map [93mFortress[96m.
+[10-27-2020 17:21:31] [I] Selected next map to be Tendrils.
+[10-27-2020 17:34:54] [I] Server loaded. Type [1m[94m'help'[0m for help.
+[10-27-2020 17:35:12] [I] Loading map...
+[10-27-2020 17:35:14] [I] Map loaded.
+[10-27-2020 17:35:14] [I] Opened a server on port [1m[94m6567[0m.
+[10-27-2020 17:35:37] [I] [94mEldar[3m[90m has connected. [3m[90m[[94mgB74y/vFt0YAAAAAlMTmSQ==[3m[90m]
+[10-27-2020 17:35:37] [I] [94mVOLK[3m[90m has connected. [3m[90m[[94mZKCeIYA93lgAAAAAFgQibg==[3m[90m]
+[10-27-2020 18:25:36] [I] [94mVOLK[3m[90m has disconnected. [3m[90m[[94mZKCeIYA93lgAAAAAFgQibg==[3m[90m] (closed)
+[10-27-2020 18:35:33] [I] [94mEldar[3m[90m has disconnected. [3m[90m[[94mgB74y/vFt0YAAAAAlMTmSQ==[3m[90m] (closed)
