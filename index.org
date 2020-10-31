@@ -10,7 +10,7 @@
 + [[file:Lections/Lection3.pdf][Лекция C++ 3]]
 + [[file:Lections/Lection4.pdf][Лекция C++ 4]]
 + [[file:Lections/Lection5.pdf][Лекция Math 5]]
-
+- [[file:Lections/Editorial6.pdf][Разбор DP 6]]
 * Записи лекций
 + [[https://youtu.be/ToaURjQQw2I][Запись лекции C++ 3]]
 + [[https://youtu.be/hngRACdQuVM][Запись лекции C++ 4]]
