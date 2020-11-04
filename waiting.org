@@ -5,7 +5,6 @@
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5e5;}</style>
 
 * Пока не добавил эту штуку
-* Постараюсь завтра днём
 
 [[file:index.org][На главную]]
 
