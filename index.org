@@ -15,7 +15,8 @@
 * Записи лекций
 + [[https://youtu.be/ToaURjQQw2I][Запись лекции C++ 3]]
 + [[https://youtu.be/hngRACdQuVM][Запись лекции C++ 4]]
-
++ Запись лекции DP 6
++ [[https://youtu.be/QZ1RJDUtEDM][Запись лекции Math 7]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
