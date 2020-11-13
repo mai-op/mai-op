@@ -22,5 +22,6 @@
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
 + [[https://youtu.be/O7FkUAYUx7w][Запись разбора Math 7]]
+- [[https://youtu.be/ZYrZqToYaT4][Запись разбора Algo 8]]
 * Заметки
 - [[file:notes/note_math5.org][Заметка к контесту Math 5]]
