@@ -21,6 +21,7 @@
 - [[https://youtu.be/7P98gxL7i8I][Запись лекции Algo 8]]
 - [[https://youtu.be/EykOAF9cNrI][Запись лецкии DP 9]]
 - [[https://youtu.be/JLQcWDiRIDE][Запись лекции Geometry 10]]
++ [[https://www.youtube.com/watch?v=jae1nZCLAag&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=15&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись лекции Graph 11]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
@@ -28,5 +29,6 @@
 - [[https://youtu.be/ZYrZqToYaT4][Запись разбора Algo 8]]
 - [[https://youtu.be/whJO66fHtWQ][Запись разбора DP 9]]
 - [[https://youtu.be/kN4aUM9plXM][Запись разбора Geometry 10]]
++ [[https://www.youtube.com/watch?v=13Gpfp2MiVU&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=16&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора Graph 11]]
 * Заметки
 - [[file:notes/note_math5.org][Заметка к контесту Math 5]]
