@@ -3,7 +3,18 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+HTML_HEAD: <style>div.figure img {max-height:300px;max-width:900px;}</style>
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5e5;}</style>
-
+* Темы второго семестра
+1. Графы: дфс, бфс, топологическая сортировка
+2. Графы: поиск кратчайших путей (Дейкстра, Дейкстра mlogn, Форда-Беллмана)
+3. Динамика по профилю, задача коммивояжёра
+4. Дерево отрезков (ДО)
+5. ДО с изменениями на отрезке
+6. Теория Шпрага-Гранди. НИМ
+7. Декартово дерево
+8. Алгоритмы на строки
+9. Сжатие координат
+10. Потоки. Алгоритм Диница
+11. Графы: минимальный остов, DSU
 * Конспекты лекций
 + [[file:Lections/Lection1.pdf][Лекция C++ 1]]
 + [[file:Lections/Lection2.pdf][Лекция C++ 2]]
