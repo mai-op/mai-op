@@ -15,15 +15,6 @@
 9. Сжатие координат
 10. Потоки. Алгоритм Диница
 11. Графы: минимальный остов, DSU
-* Конспекты лекций
-+ [[file:Lections/Lection1.pdf][Лекция C++ 1]]
-+ [[file:Lections/Lection2.pdf][Лекция C++ 2]]
-+ [[file:Lections/Lection3.pdf][Лекция C++ 3]]
-+ [[file:Lections/Lection4.pdf][Лекция C++ 4]]
-+ [[file:Lections/Lection5.pdf][Лекция Math 5]]
-- [[file:Lections/Editorial6.pdf][Разбор DP 6]]
-- [[file:Lections/Lection7.pdf][Лекция Math 7]]
-- [[file:Lections/Lection9.pdf][Лекция DP 9]]
 * Записи лекций
 + [[https://youtu.be/ToaURjQQw2I][Запись лекции C++ 3]]
 + [[https://youtu.be/hngRACdQuVM][Запись лекции C++ 4]]
@@ -33,6 +24,7 @@
 - [[https://youtu.be/EykOAF9cNrI][Запись лецкии DP 9]]
 - [[https://youtu.be/JLQcWDiRIDE][Запись лекции Geometry 10]]
 + [[https://www.youtube.com/watch?v=jae1nZCLAag&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=15&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись лекции Graph 11]]
++ [[https://youtu.be/lU_ldJGTCAc][Запись лекции Graph 12]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
@@ -41,5 +33,15 @@
 - [[https://youtu.be/whJO66fHtWQ][Запись разбора DP 9]]
 - [[https://youtu.be/kN4aUM9plXM][Запись разбора Geometry 10]]
 + [[https://www.youtube.com/watch?v=13Gpfp2MiVU&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=16&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора Graph 11]]
++ [[https://youtu.be/bPuQYIshz1A][Запись разбора Graph 12]]
+* Конспекты лекций
++ [[file:Lections/Lection1.pdf][Лекция C++ 1]]
++ [[file:Lections/Lection2.pdf][Лекция C++ 2]]
++ [[file:Lections/Lection3.pdf][Лекция C++ 3]]
++ [[file:Lections/Lection4.pdf][Лекция C++ 4]]
++ [[file:Lections/Lection5.pdf][Лекция Math 5]]
+- [[file:Lections/Editorial6.pdf][Разбор DP 6]]
+- [[file:Lections/Lection7.pdf][Лекция Math 7]]
+- [[file:Lections/Lection9.pdf][Лекция DP 9]]
 * Заметки
 - [[file:notes/note_math5.org][Заметка к контесту Math 5]]
