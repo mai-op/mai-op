@@ -26,6 +26,7 @@
 + [[https://www.youtube.com/watch?v=jae1nZCLAag&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=15&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись лекции Graph 11]]
 + [[https://youtu.be/lU_ldJGTCAc][Запись лекции Graph 12]]
 + [[https://youtu.be/9xA82IrxX0Q][Запись лекции DP 13]]
++ [[https://youtu.be/wYH82DQnppY][Запись лекции DS 14]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
