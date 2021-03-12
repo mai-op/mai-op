@@ -37,6 +37,7 @@
 + [[https://www.youtube.com/watch?v=13Gpfp2MiVU&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=16&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора Graph 11]]
 + [[https://youtu.be/bPuQYIshz1A][Запись разбора Graph 12]]
 + [[https://www.youtube.com/watch?v=OZGAhbigC3w&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=21&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора DP 13]]
++ [[https://youtu.be/hhri5oAFk3Q][Запись разбора DS 14]]
 * Конспекты лекций
 + [[file:Lections/Lection1.pdf][Лекция C++ 1]]
 + [[file:Lections/Lection2.pdf][Лекция C++ 2]]
