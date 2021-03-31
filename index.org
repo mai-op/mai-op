@@ -28,6 +28,7 @@
 + [[https://youtu.be/9xA82IrxX0Q][Запись лекции DP 13]]
 + [[https://youtu.be/wYH82DQnppY][Запись лекции DS 14]]
 + [[https://youtu.be/9E7W5qtWWMo][Запись лекции DS 15]]
++ [[https://youtu.be/COqE_8CXul8][Запись лекции Nim 16]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
@@ -40,6 +41,7 @@
 + [[https://www.youtube.com/watch?v=OZGAhbigC3w&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=21&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора DP 13]]
 + [[https://youtu.be/hhri5oAFk3Q][Запись разбора DS 14]]
 + [[https://youtu.be/3e6NTqXUUxA][Запись разбора DS 15]]
++ [[https://youtu.be/_6ATgrCAziE][Запись разбора Nim 16]]
 * Конспекты лекций
 + [[file:Lections/Lection1.pdf][Лекция C++ 1]]
 + [[file:Lections/Lection2.pdf][Лекция C++ 2]]
