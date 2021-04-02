@@ -2,7 +2,7 @@
 #+OPTIONS: toc:nil num:nil author:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+HTML_HEAD: <style>div.figure img {max-height:300px;max-width:900px;}</style>
-#+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5e5;}</style>
+#+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5ee;}</style>
 * Темы второго семестра
 1. Графы: [[https://e-maxx.ru/algo/dfs][дфс]], [[https://e-maxx.ru/algo/bfs][бфс]], [[https://e-maxx.ru/algo/topological_sort][топологическая сортировка]], [[https://e-maxx.ru/algo/connected_components][поиск компонент связности]]
 2. Графы: поиск кратчайших путей ([[https://e-maxx.ru/algo/dijkstra][Дейкстра]], [[https://e-maxx.ru/algo/dijkstra_sparse][Дейкстра mlogn]], [[https://e-maxx.ru/algo/ford_bellman][Форда-Беллмана]], [[https://e-maxx.ru/algo/floyd_warshall_algorithm][Флойда-Уоршелла]]). Доп.: [[https://neerc.ifmo.ru/wiki/index.php?title=%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0#.D0.90.D0.BD.D0.B0.D0.BB.D0.B8.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D1.83.D0.BB.D0.B0][числа Каталана]].
@@ -29,6 +29,7 @@
 + [[https://youtu.be/wYH82DQnppY][Запись лекции DS 14]]
 + [[https://youtu.be/9E7W5qtWWMo][Запись лекции DS 15]]
 + [[https://youtu.be/COqE_8CXul8][Запись лекции Nim 16]]
++ [[https://youtu.be/cj6esf6XoK4][Запись лекции DS 17]]
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
@@ -42,6 +43,7 @@
 + [[https://youtu.be/hhri5oAFk3Q][Запись разбора DS 14]]
 + [[https://youtu.be/3e6NTqXUUxA][Запись разбора DS 15]]
 + [[https://youtu.be/_6ATgrCAziE][Запись разбора Nim 16]]
++ [[https://youtu.be/AjfCx8u0h8U][Запись разбора DS 17]]
 * Конспекты лекций
 + [[file:Lections/Lection1.pdf][Лекция C++ 1]]
 + [[file:Lections/Lection2.pdf][Лекция C++ 2]]
