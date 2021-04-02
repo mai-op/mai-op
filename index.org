@@ -10,11 +10,11 @@
 4. [[https://e-maxx.ru/algo/segment_tree][Дерево отрезков]] ([[https://cp-algorithms.com/data_structures/segment_tree.html#toc-tgt-6][ДО]]). [[https://codeforces.com/blog/entry/18051][Статья на кфе]]
 5. [[https://e-maxx.ru/algo/segment_tree#20][ДО с изменениями на отрезке]]. Доп. задача: [[https://codeforces.com/edu/course/2/lesson/5/4/practice/contest/280801/problem/B][прибавление арифм. последовательности на отрезке]]
 6. [[https://e-maxx.ru/algo/sprague_grundy][Теория Шпрага-Гранди. НИМ]]
-7. Декартово дерево
-8. Алгоритмы на строки
-9. Сжатие координат
-10. Потоки. Алгоритм Диница
-11. Графы: минимальный остов, DSU
+7. [[https://e-maxx.ru/algo/treap][Декартово дерево]]
+8. Алгоритмы на строки ([[https://e-maxx.ru/algo/z_function][z-функция]], [[https://e-maxx.ru/algo/prefix_function][префикс-функция]], [[https://e-maxx.ru/algo/string_hashes][хешики]], [[https://e-maxx.ru/algo/rabin_karp][алг. Рабина-Карпа]])
+9. [[https://codeforces.com/blog/entry/84164?locale=ru][Сжатие координат]]
+10. Потоки. [[https://e-maxx.ru/algo/dinic][Алгоритм Диница]]
+11. Графы: минимальный остов --- алгоритмы ([[https://e-maxx.ru/algo/mst_prim][Прима]], [[https://e-maxx.ru/algo/mst_kruskal][Краскала]], [[https://e-maxx.ru/algo/mst_kruskal_with_dsu][улучшенный Краскала]] ), [[https://e-maxx.ru/algo/dsu][DSU]]
 * Записи лекций
 + [[https://youtu.be/ToaURjQQw2I][Запись лекции C++ 3]]
 + [[https://youtu.be/hngRACdQuVM][Запись лекции C++ 4]]
