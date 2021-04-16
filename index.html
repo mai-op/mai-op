@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-04-03 Сб 16:50 -->
+<!-- 2021-04-16 Пт 23:10 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Олимпиадные тренировки в МАИ</title>
@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +51,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -196,58 +196,34 @@
 <style>div.figure img {max-height:300px;max-width:900px;}</style>
 <style>.org-src-container {background-color: #303030; color: #e5e5ee;}</style>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <div id="content">
 <h1 class="title">Олимпиадные тренировки в МАИ</h1>
-<div id="outline-container-org653547a" class="outline-2">
-<h2 id="org653547a">Темы второго семестра</h2>
-<div class="outline-text-2" id="text-org653547a">
+<div id="outline-container-org4ad667e" class="outline-2">
+<h2 id="org4ad667e">Темы второго семестра</h2>
+<div class="outline-text-2" id="text-org4ad667e">
 <ol class="org-ol">
 <li>Графы: <a href="https://e-maxx.ru/algo/dfs">дфс</a>, <a href="https://e-maxx.ru/algo/bfs">бфс</a>, <a href="https://e-maxx.ru/algo/topological_sort">топологическая сортировка</a>, <a href="https://e-maxx.ru/algo/connected_components">поиск компонент связности</a></li>
 <li>Графы: поиск кратчайших путей (<a href="https://e-maxx.ru/algo/dijkstra">Дейкстра</a>, <a href="https://e-maxx.ru/algo/dijkstra_sparse">Дейкстра mlogn</a>, <a href="https://e-maxx.ru/algo/ford_bellman">Форда-Беллмана</a>, <a href="https://e-maxx.ru/algo/floyd_warshall_algorithm">Флойда-Уоршелла</a>). Доп.: <a href="https://neerc.ifmo.ru/wiki/index.php?title=%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0#.D0.90.D0.BD.D0.B0.D0.BB.D0.B8.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D1.83.D0.BB.D0.B0">числа Каталана</a>.</li>
@@ -263,9 +239,9 @@ for the JavaScript code in this tag.
 </ol>
 </div>
 </div>
-<div id="outline-container-org11d1de2" class="outline-2">
-<h2 id="org11d1de2">Записи лекций</h2>
-<div class="outline-text-2" id="text-org11d1de2">
+<div id="outline-container-org2de01d9" class="outline-2">
+<h2 id="org2de01d9">Записи лекций</h2>
+<div class="outline-text-2" id="text-org2de01d9">
 <ul class="org-ul">
 <li><a href="https://youtu.be/ToaURjQQw2I">Запись лекции C++ 3</a></li>
 <li><a href="https://youtu.be/hngRACdQuVM">Запись лекции C++ 4</a></li>
@@ -281,12 +257,14 @@ for the JavaScript code in this tag.
 <li><a href="https://youtu.be/9E7W5qtWWMo">Запись лекции DS 15</a></li>
 <li><a href="https://youtu.be/COqE_8CXul8">Запись лекции Nim 16</a></li>
 <li><a href="https://youtu.be/cj6esf6XoK4">Запись лекции DS 17</a></li>
+<li><a href="https://youtu.be/JEMCszOLzyg">Запись лекции Strings 18</a></li>
+<li><a href="https://youtu.be/vBVi_EE9aXY">Запись лекции Compression 19</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7d654b4" class="outline-2">
-<h2 id="org7d654b4">Записи разборов</h2>
-<div class="outline-text-2" id="text-org7d654b4">
+<div id="outline-container-orgfb5658a" class="outline-2">
+<h2 id="orgfb5658a">Записи разборов</h2>
+<div class="outline-text-2" id="text-orgfb5658a">
 <ul class="org-ul">
 <li><a href="https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF">Запись разбора C++ 4</a></li>
 <li><a href="https://youtu.be/wTRN34q0wjQ">Запись разбора Math 5</a></li>
@@ -301,12 +279,14 @@ for the JavaScript code in this tag.
 <li><a href="https://youtu.be/3e6NTqXUUxA">Запись разбора DS 15</a></li>
 <li><a href="https://youtu.be/_6ATgrCAziE">Запись разбора Nim 16</a></li>
 <li><a href="https://youtu.be/AjfCx8u0h8U">Запись разбора DS 17</a></li>
+<li><a href="https://youtu.be/Ft6MVI1akG8">Запись разбора Strings 18</a></li>
+<li><a href="https://youtu.be/W6o0yCNfpxc">Запись разбора Compression 19</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd0e0f39" class="outline-2">
-<h2 id="orgd0e0f39">Конспекты лекций</h2>
-<div class="outline-text-2" id="text-orgd0e0f39">
+<div id="outline-container-orgaee7434" class="outline-2">
+<h2 id="orgaee7434">Конспекты лекций</h2>
+<div class="outline-text-2" id="text-orgaee7434">
 <ul class="org-ul">
 <li><a href="Lections/Lection1.pdf">Лекция C++ 1</a></li>
 <li><a href="Lections/Lection2.pdf">Лекция C++ 2</a></li>
@@ -319,9 +299,9 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf639c58" class="outline-2">
-<h2 id="orgf639c58">Заметки</h2>
-<div class="outline-text-2" id="text-orgf639c58">
+<div id="outline-container-orgdc0efc2" class="outline-2">
+<h2 id="orgdc0efc2">Заметки</h2>
+<div class="outline-text-2" id="text-orgdc0efc2">
 <ul class="org-ul">
 <li><a href="notes/note_math5.html">Заметка к контесту Math 5</a></li>
 </ul>
@@ -329,8 +309,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2021-04-03 Сб 16:50</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2021-04-16 Пт 23:10</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
