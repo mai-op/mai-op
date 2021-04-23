@@ -32,6 +32,8 @@
 + [[https://youtu.be/cj6esf6XoK4][Запись лекции DS 17]]
 + [[https://youtu.be/JEMCszOLzyg][Запись лекции Strings 18]]
 + [[https://youtu.be/vBVi_EE9aXY][Запись лекции Compression 19]]
++ [[https://youtu.be/pyBumuRfkfg][Запись лекции Graph 20]]
+
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
 + [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
