@@ -33,6 +33,7 @@
 + [[https://youtu.be/JEMCszOLzyg][Запись лекции Strings 18]]
 + [[https://youtu.be/vBVi_EE9aXY][Запись лекции Compression 19]]
 + [[https://youtu.be/pyBumuRfkfg][Запись лекции Graph 20]]
++ [[https://youtu.be/BP5Aup1hdaA][Запись лекции Graph 21]]
 
 * Записи разборов
 + [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
@@ -50,6 +51,9 @@
 + [[https://youtu.be/AjfCx8u0h8U][Запись разбора DS 17]]
 + [[https://youtu.be/Ft6MVI1akG8][Запись разбора Strings 18]]
 + [[https://youtu.be/W6o0yCNfpxc][Запись разбора Compression 19]]
++ [[https://youtu.be/sGJkooR_aWo][Запись разбора Graph 20]]
++ [[https://youtu.be/IJYGx2rucKA][Запись разбора Graph 21]]
+
 * Конспекты лекций
 + [[file:Lections/Lection1.pdf][Лекция C++ 1]]
 + [[file:Lections/Lection2.pdf][Лекция C++ 2]]
