@@ -3,6 +3,11 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+HTML_HEAD: <style>div.figure img {max-height:300px;max-width:900px;}</style>
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5ee;}</style>
+* Весенняя олимпиада первого курса!
+Дата проведение: 16.05.2021
+Место проведения: МАИ 438, 440, 444 аудитории
+Что будет: контест 5 часов, разбор 1 час + бонусом награждение.
+Регистрация: https://forms.gle/kRCxahKnjwDqdEyU6
 * Темы второго семестра
 1. Графы: [[https://e-maxx.ru/algo/dfs][дфс]], [[https://e-maxx.ru/algo/bfs][бфс]], [[https://e-maxx.ru/algo/topological_sort][топологическая сортировка]], [[https://e-maxx.ru/algo/connected_components][поиск компонент связности]]
 2. Графы: поиск кратчайших путей ([[https://e-maxx.ru/algo/dijkstra][Дейкстра]], [[https://e-maxx.ru/algo/dijkstra_sparse][Дейкстра mlogn]], [[https://e-maxx.ru/algo/ford_bellman][Форда-Беллмана]], [[https://e-maxx.ru/algo/floyd_warshall_algorithm][Флойда-Уоршелла]]). Доп.: [[https://neerc.ifmo.ru/wiki/index.php?title=%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0#.D0.90.D0.BD.D0.B0.D0.BB.D0.B8.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D1.83.D0.BB.D0.B0][числа Каталана]].
