@@ -5,8 +5,11 @@
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5ee;}</style>
 * Весенняя олимпиада первого курса!
 Дата проведение: 16.05.2021
+
 Место проведения: МАИ 438, 440, 444 аудитории
+
 Что будет: контест 5 часов, разбор 1 час + бонусом награждение.
+
 Регистрация: https://forms.gle/kRCxahKnjwDqdEyU6
 * Темы второго семестра
 1. Графы: [[https://e-maxx.ru/algo/dfs][дфс]], [[https://e-maxx.ru/algo/bfs][бфс]], [[https://e-maxx.ru/algo/topological_sort][топологическая сортировка]], [[https://e-maxx.ru/algo/connected_components][поиск компонент связности]]
