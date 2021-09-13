@@ -3,65 +3,17 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+HTML_HEAD: <style>div.figure img {max-height:300px;max-width:900px;}</style>
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5ee;}</style>
-* Темы второго семестра
-1. Графы: [[https://e-maxx.ru/algo/dfs][дфс]], [[https://e-maxx.ru/algo/bfs][бфс]], [[https://e-maxx.ru/algo/topological_sort][топологическая сортировка]], [[https://e-maxx.ru/algo/connected_components][поиск компонент связности]]
-2. Графы: поиск кратчайших путей ([[https://e-maxx.ru/algo/dijkstra][Дейкстра]], [[https://e-maxx.ru/algo/dijkstra_sparse][Дейкстра mlogn]], [[https://e-maxx.ru/algo/ford_bellman][Форда-Беллмана]], [[https://e-maxx.ru/algo/floyd_warshall_algorithm][Флойда-Уоршелла]]). Доп.: [[https://neerc.ifmo.ru/wiki/index.php?title=%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0#.D0.90.D0.BD.D0.B0.D0.BB.D0.B8.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D1.83.D0.BB.D0.B0][числа Каталана]].
-3. [[https://neerc.ifmo.ru/wiki/index.php?title=%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BE_%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8E][Динамика по профилю]], [[https://neerc.ifmo.ru/wiki/index.php?title=%D0%93%D0%B0%D0%BC%D0%B8%D0%BB%D1%8C%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B_%D0%B3%D1%80%D0%B0%D1%84%D1%8B#.D0.94.D0.B8.D0.BD.D0.B0.D0.BC.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.BE.D0.B5_.D0.BF.D1.80.D0.BE.D0.B3.D1.80.D0.B0.D0.BC.D0.BC.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D0.BF.D0.BE_.D0.BF.D0.BE.D0.B4.D0.BC.D0.BD.D0.BE.D0.B6.D0.B5.D1.81.D1.82.D0.B2.D0.B0.D0.BC_.28.D0.BF.D0.BE_.D0.BC.D0.B0.D1.81.D0.BA.D0.B0.D0.BC.29][задача коммивояжёра (дп по подмножествам)]]
-4. [[https://e-maxx.ru/algo/segment_tree][Дерево отрезков]] ([[https://cp-algorithms.com/data_structures/segment_tree.html#toc-tgt-6][ДО]]). [[https://codeforces.com/blog/entry/18051][Статья на кфе]]
-5. [[https://e-maxx.ru/algo/segment_tree#20][ДО с изменениями на отрезке]]. Доп. задача: [[https://codeforces.com/edu/course/2/lesson/5/4/practice/contest/280801/problem/B][прибавление арифм. последовательности на отрезке]]
-6. [[https://e-maxx.ru/algo/sprague_grundy][Теория Шпрага-Гранди. НИМ]]
-7. [[https://e-maxx.ru/algo/treap][Декартово дерево]]. Доп. задача: [[https://codeforces.com/contest/863/problem/D][Очередная задача про запросы в массиве]]
-8. Алгоритмы на строки ([[https://e-maxx.ru/algo/z_function][z-функция]], [[https://e-maxx.ru/algo/prefix_function][префикс-функция]], [[https://e-maxx.ru/algo/string_hashes][хешики]], [[https://e-maxx.ru/algo/rabin_karp][алг. Рабина-Карпа]])
-9. [[https://codeforces.com/blog/entry/84164?locale=ru][Сжатие координат]]
-10. Потоки. [[https://e-maxx.ru/algo/dinic][Алгоритм Диница]]
-11. Графы: минимальный остов --- алгоритмы ([[https://e-maxx.ru/algo/mst_prim][Прима]], [[https://e-maxx.ru/algo/mst_kruskal][Краскала]], [[https://e-maxx.ru/algo/mst_kruskal_with_dsu][улучшенный Краскала]] ), [[https://e-maxx.ru/algo/dsu][DSU]]
-* Записи лекций
-+ [[https://youtu.be/ToaURjQQw2I][Запись лекции C++ 3]]
-+ [[https://youtu.be/hngRACdQuVM][Запись лекции C++ 4]]
-+ [[https://youtu.be/y3z3Mz6ZK4k][Запись лекции DP 6]]
-+ [[https://youtu.be/QZ1RJDUtEDM][Запись лекции Math 7]]
-- [[https://youtu.be/7P98gxL7i8I][Запись лекции Algo 8]]
-- [[https://youtu.be/EykOAF9cNrI][Запись лецкии DP 9]]
-- [[https://youtu.be/JLQcWDiRIDE][Запись лекции Geometry 10]]
-+ [[https://www.youtube.com/watch?v=jae1nZCLAag&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=15&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись лекции Graph 11]]
-+ [[https://youtu.be/lU_ldJGTCAc][Запись лекции Graph 12]]
-+ [[https://youtu.be/9xA82IrxX0Q][Запись лекции DP 13]]
-+ [[https://youtu.be/wYH82DQnppY][Запись лекции DS 14]]
-+ [[https://youtu.be/9E7W5qtWWMo][Запись лекции DS 15]]
-+ [[https://youtu.be/COqE_8CXul8][Запись лекции Nim 16]]
-+ [[https://youtu.be/cj6esf6XoK4][Запись лекции DS 17]]
-+ [[https://youtu.be/JEMCszOLzyg][Запись лекции Strings 18]]
-+ [[https://youtu.be/vBVi_EE9aXY][Запись лекции Compression 19]]
-+ [[https://youtu.be/pyBumuRfkfg][Запись лекции Graph 20]]
-+ [[https://youtu.be/BP5Aup1hdaA][Запись лекции Graph 21]]
+Пусть это будет главной страницей с полезной информацией.
 
-* Записи разборов
-+ [[https://youtu.be/kkxMTSOw7Go?list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF][Запись разбора C++ 4]]
-+ [[https://youtu.be/wTRN34q0wjQ][Запись разбора Math 5]]
-+ [[https://youtu.be/O7FkUAYUx7w][Запись разбора Math 7]]
-- [[https://youtu.be/ZYrZqToYaT4][Запись разбора Algo 8]]
-- [[https://youtu.be/whJO66fHtWQ][Запись разбора DP 9]]
-- [[https://youtu.be/kN4aUM9plXM][Запись разбора Geometry 10]]
-+ [[https://www.youtube.com/watch?v=13Gpfp2MiVU&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=16&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора Graph 11]]
-+ [[https://youtu.be/bPuQYIshz1A][Запись разбора Graph 12]]
-+ [[https://www.youtube.com/watch?v=OZGAhbigC3w&list=PLKFr2KmDK7eK0toSDrnAQhBTnv5v8IoWF&index=21&ab_channel=%D0%9C%D0%90%D0%98%D0%9E%D0%9F][Запись разбора DP 13]]
-+ [[https://youtu.be/hhri5oAFk3Q][Запись разбора DS 14]]
-+ [[https://youtu.be/3e6NTqXUUxA][Запись разбора DS 15]]
-+ [[https://youtu.be/_6ATgrCAziE][Запись разбора Nim 16]]
-+ [[https://youtu.be/AjfCx8u0h8U][Запись разбора DS 17]]
-+ [[https://youtu.be/Ft6MVI1akG8][Запись разбора Strings 18]]
-+ [[https://youtu.be/W6o0yCNfpxc][Запись разбора Compression 19]]
-+ [[https://youtu.be/sGJkooR_aWo][Запись разбора Graph 20]]
-+ [[https://youtu.be/IJYGx2rucKA][Запись разбора Graph 21]]
+Телеграм-канал: https://t.me/maiicpc
 
-* Конспекты лекций
-+ [[file:Lections/Lection1.pdf][Лекция C++ 1]]
-+ [[file:Lections/Lection2.pdf][Лекция C++ 2]]
-+ [[file:Lections/Lection3.pdf][Лекция C++ 3]]
-+ [[file:Lections/Lection4.pdf][Лекция C++ 4]]
-+ [[file:Lections/Lection5.pdf][Лекция Math 5]]
-- [[file:Lections/Editorial6.pdf][Разбор DP 6]]
-- [[file:Lections/Lection7.pdf][Лекция Math 7]]
-- [[file:Lections/Lection9.pdf][Лекция DP 9]]
-* Заметки
-- [[file:notes/note_math5.org][Заметка к контесту Math 5]]
+Сайт опенкапов: http://opencup.ru/
+
+Рейтинг по МАИ на codeforces: https://codeforces.com/ratings/organization/1657
+
+* Опенкапы 2021-2022
+- [[https://drive.google.com/file/d/1JinjHovDPzUnTLZ7yi_5hFxO4mx4ZVZ_/view][12.09.2021: Официальный разбор]] и [[https://youtu.be/vRSboiFMSeg][запись нашего разбора]].
+
+* Архив
+- [[file:mai2020.org][Тренировки 1 курса в 2020-2021]]
+- [[file:about.org][О спортивном программировании в МАИ]]
