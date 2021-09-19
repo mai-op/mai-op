@@ -12,6 +12,7 @@
 Рейтинг по МАИ на codeforces: https://codeforces.com/ratings/organization/1657
 
 * Опенкапы 2021-2022
+- 19.09.2021: [[https://drive.google.com/file/d/1-J06etjljwZ7i-7rIRn8ex6mr5bu6A_p/view][официальный разбор]] и [[https://youtu.be/CJrOnFvZdNk][запись нашего разбора]].
 - 12.09.2021: [[https://drive.google.com/file/d/1JinjHovDPzUnTLZ7yi_5hFxO4mx4ZVZ_/view][официальный разбор]] и [[https://youtu.be/vRSboiFMSeg][запись нашего разбора]]. Разобраться: [[https://codeforces.com/blog/entry/81716][алгоритм Мо]].
 - 05.09.2021: [[https://youtu.be/TWOGMwlHvcY][запись разбора]] и сам [[https://codeforces.com/group/04AAKGIsNL/contest/342726][контест]] для дорешки. Разобраться: [[https://codeforces.com/blog/entry/17023][быстрый Кун]].
 
